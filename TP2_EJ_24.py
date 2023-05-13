@@ -30,7 +30,7 @@ tamanio=pila.size()
 while pila.size()>0:
     elemento=pila.pop()
     if (elemento['nombre']=='Rocket Raccoon') or (elemento['nombre']=='Groot'):
-        print(elemento['nombre'],' esta en la posicion: ',pila.size())   
+        print(elemento['nombre'],' esta en la posicion: ',pila.size()+1)   
     if (elemento['peliculas']>5):
         print(elemento['nombre'],' aparece en mas de 5 peliculas, con un total de',elemento['peliculas'])
     if (elemento['nombre']=='Black Widow'):
